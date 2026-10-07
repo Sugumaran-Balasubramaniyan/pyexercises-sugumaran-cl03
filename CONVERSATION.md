@@ -72,3 +72,23 @@ print(result)  # Should print "helloworld"
 ```
 
 What is the operator used to join two strings in this function?
+
+---
+## 2026-10-07 13:45, in .
+
+**Me:** How to write a if else in python
+
+**Tutor:**
+
+Conditional branching with if-else.
+
+```python
+# TODO: write a function that decides if a number is positive or not
+def check_sign(number):
+    if number > 0:
+        return "positive"
+    else:
+        return "not positive"
+```
+
+What does the else branch run when the condition is false?
