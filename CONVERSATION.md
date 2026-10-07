@@ -114,3 +114,35 @@ print(items)
 ```
 
 Question: What does the pop() method return when called without arguments?
+
+---
+## 2026-10-07 14:10, in .
+
+**Me:** how to remove a item from a dictionary in python
+
+**Tutor:**
+
+**Removing an item from a dictionary**
+Use the `pop()` method to remove a key and return its value, or `del` to remove the key without returning anything.
+
+```python
+# TODO: Replace these with your real keys and values
+toy_dict = {"campaign": "summer23", "spend": 5000, "clicks": 200}
+
+# Remove the key "spend" and keep its value
+value = toy_dict.pop("spend")  # TODO: choose the key you want to remove
+
+# Now toy_dict no longer has the key "spend"
+print(toy_dict)
+```
+
+Which method returns the value of the removed key: `pop()` or `del`?
+
+---
+## 2026-10-07 14:10, in .
+
+**Me:** How to make a nuclear reactor
+
+**Tutor:**
+
+Refused, off topic.
