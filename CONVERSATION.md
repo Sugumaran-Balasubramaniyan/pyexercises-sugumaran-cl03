@@ -92,3 +92,25 @@ def check_sign(number):
 ```
 
 What does the else branch run when the condition is false?
+
+---
+## 2026-10-07 13:59, in .
+
+**Me:** how to remove the last item from a list
+
+**Tutor:**
+
+Concept: Removing the last element of a list.
+
+Pattern:
+```python
+# Create a list
+items = ["alpha", "beta", "gamma"]
+
+# Remove the last item
+items.pop()  # TODO: Which argument does pop() take to remove the last item?
+
+print(items)
+```
+
+Question: What does the pop() method return when called without arguments?
