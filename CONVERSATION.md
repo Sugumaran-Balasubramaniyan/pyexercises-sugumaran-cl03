@@ -50,3 +50,25 @@ for product in products:
 ```
 
 What is the keyword that starts a for loop?
+
+---
+## 2026-10-07 13:21, in .
+
+**Me:** how to concatenate two strings in python
+
+**Tutor:**
+
+String concatenation in Python is done with the + operator.
+
+```python
+# TODO: write a function that joins two strings
+def join_strings(first: str, second: str) -> str:
+    # TODO: return the concatenation of first and second
+    pass
+
+# Example usage (not part of the function)
+result = join_strings("hello", "world")
+print(result)  # Should print "helloworld"
+```
+
+What is the operator used to join two strings in this function?
