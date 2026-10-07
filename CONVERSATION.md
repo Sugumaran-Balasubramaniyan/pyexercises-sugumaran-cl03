@@ -146,3 +146,24 @@ Which method returns the value of the removed key: `pop()` or `del`?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-07 14:20, in .
+
+**Me:** how to save a list of names in python
+
+**Tutor:**
+
+Saving a list of names in Python means storing it so you can use it later.
+
+A list is already a Python object you can save, but to keep it after the program ends you must write it to a file.
+
+```python
+# TODO: pick a filename and open it for writing
+with open(____, 'w') as f:
+    # TODO: write each name on its own line
+    for name in ____:
+        f.write(____)
+```
+
+What is the second argument to `open()` when you want to write text to a new file?
