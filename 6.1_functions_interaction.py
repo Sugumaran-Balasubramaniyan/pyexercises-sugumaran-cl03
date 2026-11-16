@@ -35,3 +35,60 @@ DELIVERABLE
 
 
 # Your code below
+
+number = -4
+if number > 0:
+    print("The number is positive")
+else:
+    print("The number is negative")
+
+number = 5
+if number > 0:
+    print("The number is positive")
+else:
+    print("The number is negative")
+
+number = 9
+if number > 0:
+    print("The number is positive")
+else:
+    print("The number is negative")
+
+def check(number):
+    if number > 0:
+        print("The number is positive")
+    else:
+        print("The number is negative")
+
+num = int(input("Enter a number:"))
+check(num)
+
+
+
+def is_positive(num):
+    return num > 0
+
+def is_negative(num):
+    return num < 0
+
+def is_zero(num):
+    return num == 0
+
+def is_even(num):
+    return num % 2 == 0
+
+def detailed_message(num):
+    if is_zero(num):
+        return "The number is zero."
+    elif is_positive(num):
+        return "The number is positive."
+    elif is_negative(num):
+        return "The number is negative."
+    elif is_even(num):
+        return "The number is even."
+    else:
+        return "The number is odd."
+
+number = 4
+print(detailed_message(number))
+
