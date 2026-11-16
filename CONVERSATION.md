@@ -207,3 +207,20 @@ def add_numbers(a, b):
 - `return` sends a value back when the function ends.
 
 What does the `return` statement do in this function?
+
+---
+## 2026-11-16 10:02, in .
+
+**Me:** how to write a function in python
+
+**Tutor:**
+
+Writing a function in Python is giving a name to a block of code so you can reuse it.
+
+```python
+def greet(name):
+    # TODO: put the code that greets the user here
+    # TODO: return the greeting string
+```
+
+What is the keyword that starts every function definition?
