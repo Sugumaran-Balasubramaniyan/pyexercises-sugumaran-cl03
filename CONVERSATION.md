@@ -167,3 +167,43 @@ with open(____, 'w') as f:
 ```
 
 What is the second argument to `open()` when you want to write text to a new file?
+
+---
+## 2026-11-16 09:07, in .
+
+**Me:** how to write a function
+
+**Tutor:**
+
+A function is a named block of reusable code.
+
+```python
+def greet(name):
+    # TODO: return a greeting string using the name
+    pass
+```
+
+What does the `name` parameter represent in this function?
+
+---
+## 2026-11-16 09:11, in .
+
+**Me:** how to write a function
+
+**Tutor:**
+
+Writing a function in Python means packaging a block of code so you can reuse it later.
+
+```python
+# A simple function that adds two numbers
+def add_numbers(a, b):
+    result = a + b
+    return result
+```
+
+- `def` starts the function definition.
+- `add_numbers` is the function name (you choose it).
+- `(a, b)` are the parameters (inputs).
+- `return` sends a value back when the function ends.
+
+What does the `return` statement do in this function?
